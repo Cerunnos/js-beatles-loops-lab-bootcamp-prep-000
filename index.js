@@ -14,10 +14,11 @@ function johnLennonFacts(facts){
   }
   return array
 }
-function iLoveTheBeatles(number){
+function iLoveTheBeatles(n){
   var array2=[]
   do{
     array2.push("I love the Beatles")
-  }while (array2.length<parseInt('number',10)
+    n++
+  }while (array2<n)
   return array2
 }
