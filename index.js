@@ -19,4 +19,5 @@ function iLoveTheBeatles(number){
   do{
     array2.push("I love the Beatles")
   }while (array2.length<number)
+  return array2
 }
