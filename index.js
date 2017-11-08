@@ -19,6 +19,6 @@ function iLoveTheBeatles(n){
   do{
     array2.push("I love the Beatles")
     n++
-  }while (15<n)
+  }while (n<15)
   return array2
 }
